@@ -59,7 +59,7 @@ Outputs:
     Value: !GetAtt EC2Instance.PublicIp
   websimpleURL:
     Description: "URL de websimple"
-    Value: !Sub "http://${EC2Instance.PublicIp}/websimple"
+    Value: !Sub "http://${EC2Instance.PublicIp}/cloud-web-simple"
   webplantillaURL:
     Description: "URL de webplantilla"
-    Value: !Sub "http://${EC2Instance.PublicIp}/webplantilla"
+    Value: !Sub "http://${EC2Instance.PublicIp}/cloud-webplantilla"
